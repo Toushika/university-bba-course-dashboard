@@ -1,0 +1,55 @@
+
+.spinner {
+    position: absolute;
+        width: 100px; /*the image width*/
+        height: 100px; /*the image height*/
+        left: 50%;
+        top: 50%;
+        margin-left: -50px; /*half the image width*/
+        margin-top: -50px; /*half the image height*/
+}
+
+.mainHeading{
+    padding-top:3%;
+    padding-bottom:2%;
+    text-align:center;
+    color:green;
+}
+
+/* .showDetails{
+    border: 2px solid  green;
+} */
+
+#studentDetails{
+    display: none;
+}
+
+.allStudentId td {
+    padding: 0.5rem;
+    
+}
+#viewResult1{
+    display:none;
+}
+
+#viewResult2{
+    display:none;
+}
+
+.tentativeCourses{
+    background-image: -webkit-linear-gradient(top,#FFFFE0 0%, #FCF3CF 100%);
+    background-image: -o-linear-gradient(top,#FFFFE0 0%, #FCF3CF 100%);
+    background-image: linear-gradient(to bottom,#FFFFE0  ,#FCF3CF 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff004400', endColorstr='#ff009900', GradientType=0);
+
+}
+
+.takenCourses{
+    background-image: -webkit-linear-gradient(top,#FFFFE0 0%, #FCF3CF 100%);
+    background-image: -o-linear-gradient(top,#FFFFE0 0%, #FCF3CF 100%);
+    background-image: linear-gradient(to bottom,#FFFFE0,#FCF3CF 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff004400', endColorstr='#ff009900', GradientType=0);
+
+}

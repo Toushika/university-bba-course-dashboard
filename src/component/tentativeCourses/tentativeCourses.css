@@ -1,0 +1,17 @@
+
+.spinner {
+    position: absolute;
+        width: 100px; /*the image width*/
+        height: 100px; /*the image height*/
+        left: 50%;
+        top: 50%;
+        margin-left: -50px; /*half the image width*/
+        margin-top: -50px; /*half the image height*/
+}
+
+.mainHeading{
+    padding-top:3%;
+    padding-bottom:2%;
+    text-align:center;
+    color:green;
+}
