@@ -109,8 +109,8 @@ class takenCoursesFinal extends React.Component {
                 }
 
                 var tentativeCourses = this.state.bbaCoursesCompare.filter((bba) => !this.state.courseListForComapare.includes(bba));
-                console.log("All Courses:: " + this.state.courseListForComapare);
-                console.log("All BBA Courses:: " + this.state.bbaCoursesCompare);
+                // console.log("All Courses:: " + this.state.courseListForComapare);
+                // console.log("All BBA Courses:: " + this.state.bbaCoursesCompare);
                 console.log("Tentative Courses:: " + tentativeCourses);
                 this.setState({ allCoursesDetail: allCoursesDetail });
                 this.setState({ tentativeCourses: tentativeCourses });
